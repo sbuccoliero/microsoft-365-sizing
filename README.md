@@ -5,7 +5,7 @@
 
 ```
 Get-RubrikM365SizingInfo.ps1
-[INFO] Starting the Rubrik Microsoft 365 sizing script (v3.11).
+[INFO] Starting the Rubrik Microsoft 365 sizing script (v3.13).
 [INFO] Connecting to the Microsoft Graph API using 'Reports.Read.All', 'User.Read.All', and 'Group.Read.All' (if filtering results by Azure AD Group) permissions.
 [INFO] Looking up all users in the provided Azure AD Group.
 [INFO] Retrieving the Total Storage Consumed for ...
@@ -55,7 +55,7 @@ M365 Sizing information has been written to /dev/Rubrik-M365-Sizing.html
 2. Install the `Microsoft.Graph.Reports` and `ExchangeOnlineManagement` modules from the PowerShell Gallery
 
 ```powershell
-Install-Module Microsoft.Graph.Reports, Microsoft.Graph.Groups, ExchangeOnlineManagement
+Install-Module Microsoft.Graph.Reports, Microsoft.Graph.Groups, ExchangeOnlineManagement, RobustCloudCommand
 ```
 
 ## Usage
